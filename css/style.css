@@ -438,7 +438,7 @@
     border: 2px solid white;
 }
 .view_more a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -519,10 +519,9 @@ footer > h2{
     width: 35vw;
     margin: 2vh auto;
 }
-.contact_grid a{
+.contact_grid > a{
     color: white;
 }
-
 .contact_grid a:hover{
     color: white;
 }
