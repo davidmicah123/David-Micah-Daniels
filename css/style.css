@@ -437,7 +437,15 @@
     color: white;
     border: 2px solid white;
 }
+.view_more a{
+    color: white;
+    text-decoration: none;
+}
 
+.view_more a:hover{
+    color: white;
+    text-decoration: none;
+}
 /* .fa-star{
     background-color: white;
     border: 2px solid #070957;
@@ -510,6 +518,13 @@ footer > h2{
     grid-template-columns: repeat(4, 1fr);
     width: 35vw;
     margin: 2vh auto;
+}
+.contact_grid a{
+    color: white;
+}
+
+.contact_grid a:hover{
+    color: white;
 }
 .contact_icon{
     font-size: 5vh;
