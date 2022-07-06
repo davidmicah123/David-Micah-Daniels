@@ -1,0 +1,320 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.welcome_img{
+    height: 100%;
+}
+@media (max-width: 1100px) {
+    .welcome_grid{
+        width: 85vw;
+    }
+    .service_icon{
+        width: 10vw;
+    }
+    .skill_set_card > h3{
+        font-size: 1.2rem;
+    }
+    .project_grid{
+        width: 85vw;
+    }
+    .large_card{
+        width: 100%;
+        height: 100%;
+    }
+    .textimonial_grid{
+        width: 85vw;
+    }
+    .my_img{
+        width: 22vw;
+    }
+    .welcome_txt p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .service_heading{
+        font-size: 1.5rem;
+    }
+    .project_card_txt h3{
+        font-size: 1.2rem;
+    }
+    .project_card_txt p{
+        font-size: 0.9rem;
+    }
+    .large_card{
+        width: 100%;
+        /* height: 56vh; */
+    }
+    .welcome_img{
+        width: 40vw;
+        height: 100%;
+    }
+    
+
+    .skill{
+        padding: 0 2vw;
+    }
+    .skill_grid{
+        width: 90vw;
+    }
+    .skill_set{
+        width: 90vw;
+    }
+    .my_img{
+        width: 30vw;
+    }
+    .writter_description{
+        margin: 0vh 0;
+    }
+    .textimonial_grid{
+        width: 90vw;
+    }
+    .welcome_txt p{
+        font-size: 0.92rem;
+    }
+}
+@media (max-width: 950px) {
+    .project_grid{
+        width: 90vw;
+    }
+    .project_card_txt p{
+        font-size: 0.8rem;
+        margin-bottom: 1vh;
+    }
+}
+
+@media (max-width: 850px) {
+    .welcome_grid{
+        width: 90vw;
+    }
+    .hidden_850{
+        display: none;
+    }
+    .project_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .textimonial_grid{
+        width: 90vw;
+    }
+    .textimonial_txt{
+        font-size: 0.8rem;
+    }
+    .large_card{
+        /* height: 68vh; */
+    }
+    .services_grid{
+        width: 90vw;
+    }
+    .sidebar{
+        width: 90vw;
+    }
+    .my_img{
+        width: 33vw;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .service_heading{
+        font-size: 1.2rem;
+    }
+    .skill_set{
+        width: 95vw;
+    }
+    .skill_grid{
+        width: 95vw;
+    }
+    .skill_heading{
+        width: 90vw;
+    }
+    .textimonial_grid{
+        grid-template-columns: 1fr;
+    }
+    .animation_h2 h3{
+        font-size: 1.5rem;
+    }
+    .type_text{
+        font-size: 1rem;
+    }
+    .wraper div{
+        width: 30px;
+        height: 30px;
+        border: 2px solid #fff;
+        position: absolute;
+    }
+    .project_card_txt p{
+        font-size: 0.72rem;
+        margin-bottom: 1vh;
+    }
+}
+@media (max-width: 650px) {
+    .skill_set {
+        /* width: 80vw; */
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .services_grid{
+        grid-template-columns: 1fr;
+    }
+    .writter_description img{
+        width: 14vw;
+    }
+    .project_grid{
+        width: 90vw;
+    }
+    .service_icon{
+        width: 18vw;
+    }
+    .welcome_grid{
+        width: 95vw;
+    }
+    /* .welcome_txt p{
+        font-size: 1.2rem;
+    } */
+}
+
+@media (max-width: 600px) {
+    .project_grid{
+        width: 95vw;
+    }
+    .welcome_grid{
+        grid-template-columns: 1fr;
+    }
+    .welcome_img{
+        width: 100%;
+        height: 50vh;
+    }
+    .my_img{
+        width: 40vw;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .my_img{
+        width: 35vw;
+    }
+    .project_grid{
+        width: 70vw;
+        grid-template-columns: 1fr;
+        row-gap: 5vh;
+    }
+    .project_card_txt p{
+        font-size: 0.9rem;
+    }
+    /* .hidden_850{
+        display: block;
+    } */
+}
+
+@media (max-width: 450px) {
+    .project_grid{
+        width: 85vw;
+        /* margin: 0; */
+    }
+    .skill_grid{
+        grid-template-columns: 1fr;
+    }
+    footer > h1{
+        font-size: 1.2rem;
+    }
+    .footer_icon{
+        font-size: 5vh;
+    }
+    .copyright{
+        font-size: 0.8rem;
+    }
+    .skill_set{
+        width: 95vw;
+    }
+    .skill_grid{
+        width: 90vw;
+    }
+    .welcome{
+        margin: 4vh 0;
+    }
+    .welcome_grid{
+        /* margin: 0; */
+    }
+    .welcome_img {
+        width: 98%;
+        height: 35vh;
+    }
+    .projects{
+        /* margin: 0; */
+        /* padding: auto auto; */
+        /* margin-left: 2vw; */
+    }
+    .testimonial{
+        padding: 0;
+    }
+    .textimonial_grid{
+        /* margin: 0; */
+        padding: 0;
+    }
+    .services{
+        padding: 0;
+    }
+    .writter_description img{
+        width: 14vw;
+    }
+    .my_img{
+        width: 47vw;
+    }
+    .type_text{
+        font-size: 0.8rem;
+    }
+    .non_mobile{
+        display: none;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .type_text{
+        font-size: 0.8rem;
+    }
+    .skill_set{
+        grid-template-columns: 1fr;
+        width: 80vw;
+        margin: 2vh auto;
+    }
+    .welcome_txt p{
+        font-size: 0.8rem;
+    }
+    footer h1{
+        font-size: 1.1rem;
+    }
+    footer h2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .type_text{
+        font-size: 0.5rem;
+    }
+    .welcome_txt p{
+        font-size: 0.6rem;
+    }
+    .download_resume{
+        font-size: 0.8rem;
+    }
+    .service_heading{
+        font-size: 0.8rem;
+    }
+    .service_txt{
+        font-size: 0.7rem;
+    }
+    .animation_h2 h3{
+        font-size: 1rem;
+    }
+
+    .textimonial_grid:nth-child(2){
+        display: none;
+    }
+}

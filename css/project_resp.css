@@ -1,0 +1,91 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+@media (max-width: 1100px) {
+    .project_grid{
+        grid-gap: 2vw;
+        width: 85vw;
+        row-gap: 3vh;
+    }
+    .large_card{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 900px) {
+    .project_grid{
+        grid-gap: 1vw;
+        width: 90vw;
+    }
+}
+@media (max-width: 800px) {
+    .project_grid{
+        grid-gap: 1vw;
+        width: 95vw;
+    }
+    .copyright {
+        font-size: 3vh;
+    }
+    .containe > h2{
+        font-size: 5vh;
+    }
+    .wraper div{
+        width: 33px;
+        height: 33px;
+        border: 2px solid #fff;
+        position: absolute;
+    }
+}
+@media (max-width: 700px) {
+    .project_grid{
+        grid-gap: 2vw;
+        row-gap: 4vh;
+        width: 87vw;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .project_grid{
+        grid-gap: 2vw;
+        row-gap: 4vh;
+        width: 92vw;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .copyright {
+        font-size: 2.3vh;
+    }
+    .containe > h2{
+        font-size: 3.5vh;
+    }
+    .sidebar{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .project_grid{
+        grid-gap: 2vw;
+        row-gap: 4vh;
+        width: 87vw;
+        grid-template-columns: 1fr;
+    }
+    .containe > h2{
+        font-size: 2vh;
+    }
+    .containe{
+        height: 50vh;
+    }
+    .copyright {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 300px) {
+    .project_card_txt p{
+        font-size: 0.8rem;
+    }
+}
