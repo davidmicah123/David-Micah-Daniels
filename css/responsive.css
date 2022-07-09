@@ -209,6 +209,9 @@ body{
     /* .hidden_850{
         display: block;
     } */
+    .contact_grid{
+        width: 45vw;
+    }
 }
 
 @media (max-width: 450px) {
